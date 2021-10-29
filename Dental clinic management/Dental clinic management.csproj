@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F5B2A74-822D-4E82-88D1-3B5D3392654B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Dental_clinic_management</RootNamespace>
+    <AssemblyName>Dental clinic management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Guna.UI2">
+      <HintPath>E:\BankingAppDemo\packages\Guna.UI2.WinForms.2.0.1.9\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editpationt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editpationt.Designer.cs">
+      <DependentUpon>Editpationt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPatient.Designer.cs">
+      <DependentUpon>EditPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addpationt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addpationt.Designer.cs">
+      <DependentUpon>addpationt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\DataBasePeriod.cs" />
+    <Compile Include="DataBase\DataBaseEmployee.cs" />
+    <Compile Include="DataBase\DataBaseTeeth.cs" />
+    <Compile Include="DataBase\DataBaseOperations.cs" />
+    <Compile Include="DataBase\DataBaseMedicine.cs" />
+    <Compile Include="DataBase\DataBaseDoctor.cs" />
+    <Compile Include="DataBase\DataBase_room.cs" />
+    <Compile Include="DataBase\DataBase_expenses.cs" />
+    <Compile Include="DataBase\DataBase_materials.cs" />
+    <Compile Include="DataBase\DataBase_operations_tooth.cs" />
+    <Compile Include="DataBase\DataBase_session.cs" />
+    <Compile Include="DataBase\DataBase_warehouse.cs" />
+    <Compile Include="DataBase\DataBase_warehouse_invoice.cs" />
+    <Compile Include="AddNewPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewPatient.Designer.cs">
+      <DependentUpon>AddNewPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mostod3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mostod3.Designer.cs">
+      <DependentUpon>mostod3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOY.Designer.cs">
+      <DependentUpon>EMPLOY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\Medicine.cs" />
+    <Compile Include="models\materials.cs" />
+    <Compile Include="models\expenses.cs" />
+    <Compile Include="models\Employee.cs" />
+    <Compile Include="models\Doctor.cs" />
+    <Compile Include="models\Operations.cs" />
+    <Compile Include="models\operations_tooth.cs" />
+    <Compile Include="models\Period.cs" />
+    <Compile Include="models\room.cs" />
+    <Compile Include="models\session.cs" />
+    <Compile Include="models\Teeth.cs" />
+    <Compile Include="models\Patient.cs" />
+    <Compile Include="Employees_element.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Employees_element.designer.cs">
+      <DependentUpon>Employees_element.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\designElements\mostod3at_element.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\designElements\mostod3at_element.designer.cs">
+      <DependentUpon>mostod3at_element.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient_view.designer.cs">
+      <DependentUpon>Patient_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\designElements\patient_element.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\designElements\patient_element.designer.cs">
+      <DependentUpon>patient_element.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\DataBasePatient.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="models\Admin.cs" />
+    <Compile Include="DataBase\DataBaseAdmin.cs" />
+    <Compile Include="Ui\log_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\log_in.Designer.cs">
+      <DependentUpon>log_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="models\warehouse.cs" />
+    <Compile Include="models\warehouse_invoice.cs" />
+    <EmbeddedResource Include="Editpationt.resx">
+      <DependentUpon>Editpationt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPatient.resx">
+      <DependentUpon>EditPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addpationt.resx">
+      <DependentUpon>addpationt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewPatient.resx">
+      <DependentUpon>AddNewPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mostod3.resx">
+      <DependentUpon>mostod3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOY.resx">
+      <DependentUpon>EMPLOY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees_element.resx">
+      <DependentUpon>Employees_element.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\designElements\mostod3at_element.resx">
+      <DependentUpon>mostod3at_element.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_view.resx">
+      <DependentUpon>Patient_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\designElements\patient_element.resx">
+      <DependentUpon>patient_element.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Ui\log_in.ar.resx">
+      <DependentUpon>log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\log_in.resx">
+      <DependentUpon>log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_Vector Ai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADD_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c80f8118ac507a20849cc0131e07a705.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star-icon-keyboard-10.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
