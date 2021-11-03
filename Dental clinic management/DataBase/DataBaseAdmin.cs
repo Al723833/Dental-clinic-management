@@ -8,7 +8,7 @@ namespace Dental_clinic_management
     {
 
 
-        public static string url_data_servar = "Data Source=DESKTOP-4Q4TOF3;Initial Catalog=Dental Clinic;Integrated Security=True";
+        public static string url_data_servar = "Data Source=B-0081\\SQLEXPRESS;Initial Catalog=Dental Clinic;Integrated Security=True";
 
         SqlConnection con = new SqlConnection(@url_data_servar);
         SqlCommand cmd;

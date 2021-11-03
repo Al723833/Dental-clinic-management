@@ -103,3 +103,30 @@ C:\Users\JHGJH\Desktop\Dental clinic management\Dental clinic management\obj\Deb
 C:\Users\JHGJH\Desktop\Dental clinic management\Dental clinic management\obj\Debug\Dental clinic management.csproj.CopyComplete
 C:\Users\JHGJH\Desktop\Dental clinic management\Dental clinic management\obj\Debug\Dental clinic management.exe
 C:\Users\JHGJH\Desktop\Dental clinic management\Dental clinic management\obj\Debug\Dental clinic management.pdb
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\bin\Debug\Dental clinic management.exe.config
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\bin\Debug\Dental clinic management.exe
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\bin\Debug\Dental clinic management.pdb
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\bin\Debug\ar\Dental clinic management.resources.dll
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.csproj.AssemblyReference.cache
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Editpationt.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.EditPatient.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.addpationt.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Dashboard.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.AddNewPatient.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.mostod3.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.EMPLOY.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Employees_element.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.mostod3at_element.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Patient_view.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Principal.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.patient_element.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Form1.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Properties.Resources.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental_clinic_management.Form1.ar.resources
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.csproj.GenerateResource.cache
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.exe.licenses
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.csproj.CoreCompileInputs.cache
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\ar\Dental clinic management.resources.dll
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.csproj.CopyComplete
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.exe
+C:\Users\A\Documents\GitHub\Dental-clinic-management\Dental clinic management\obj\Debug\Dental clinic management.pdb
